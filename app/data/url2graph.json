@@ -1,0 +1,2402 @@
+{
+    "https://www.kurashiru.com/recipes/c62dd337-3612-4a5d-a00f-3d472f60a4e8": {
+        "nodes": [
+            {
+                "id": "キャベツ",
+                "type": "ingredient",
+                "quantity": "1/4玉"
+            },
+            {
+                "id": "ピザ用チーズ",
+                "type": "ingredient",
+                "quantity": "50g"
+            },
+            {
+                "id": "サラダ油",
+                "type": "ingredient",
+                "quantity": "適量"
+            },
+            {
+                "id": "卵",
+                "type": "ingredient",
+                "quantity": "1個"
+            },
+            {
+                "id": "薄力粉",
+                "type": "ingredient",
+                "quantity": "120g"
+            },
+            {
+                "id": "水",
+                "type": "ingredient",
+                "quantity": "140ml"
+            },
+            {
+                "id": "ピザ用チーズ(仕上げ用)",
+                "type": "ingredient",
+                "quantity": "30g"
+            },
+            {
+                "id": "お好み焼きソース",
+                "type": "ingredient",
+                "quantity": "適量"
+            },
+            {
+                "id": "マヨネーズ",
+                "type": "ingredient",
+                "quantity": "適量"
+            },
+            {
+                "id": "かつお節",
+                "type": "ingredient",
+                "quantity": "適量"
+            },
+            {
+                "id": "青のり",
+                "type": "ingredient",
+                "quantity": "適量"
+            },
+            {
+                "id": "生地",
+                "type": "intermediate",
+                "quantity": null
+            },
+            {
+                "id": "お好み焼き",
+                "type": "final",
+                "quantity": null
+            }
+        ],
+        "edges": [
+            {
+                "source": "キャベツ",
+                "target": "生地",
+                "action": "混ぜる"
+            },
+            {
+                "source": "ピザ用チーズ",
+                "target": "生地",
+                "action": "混ぜる"
+            },
+            {
+                "source": "卵",
+                "target": "生地",
+                "action": "混ぜる"
+            },
+            {
+                "source": "薄力粉",
+                "target": "生地",
+                "action": "混ぜる"
+            },
+            {
+                "source": "水",
+                "target": "生地",
+                "action": "混ぜる"
+            },
+            {
+                "source": "サラダ油",
+                "target": "生地",
+                "action": "焼く"
+            },
+            {
+                "source": "生地",
+                "target": "お好み焼き",
+                "action": "焼く"
+            },
+            {
+                "source": "ピザ用チーズ(仕上げ用)",
+                "target": "お好み焼き",
+                "action": "かける"
+            },
+            {
+                "source": "お好み焼きソース",
+                "target": "お好み焼き",
+                "action": "かける"
+            },
+            {
+                "source": "マヨネーズ",
+                "target": "お好み焼き",
+                "action": "かける"
+            },
+            {
+                "source": "かつお節",
+                "target": "お好み焼き",
+                "action": "かける"
+            },
+            {
+                "source": "青のり",
+                "target": "お好み焼き",
+                "action": "かける"
+            }
+        ]
+    },
+    "https://www.kurashiru.com/articles/81fa366e-5281-4544-8439-9ed4ad5255e5": {
+        "nodes": [
+            {
+                "id": "ホットケーキミックス",
+                "type": "ingredient",
+                "quantity": "200g"
+            },
+            {
+                "id": "バナナ",
+                "type": "ingredient",
+                "quantity": "2本"
+            },
+            {
+                "id": "ホワイトチョコレート",
+                "type": "ingredient",
+                "quantity": "50g"
+            },
+            {
+                "id": "ふわふわバナナおやつパン",
+                "type": "final",
+                "quantity": null
+            },
+            {
+                "id": "ホットケーキミックス",
+                "type": "ingredient",
+                "quantity": "50g"
+            },
+            {
+                "id": "卵",
+                "type": "ingredient",
+                "quantity": "2個"
+            },
+            {
+                "id": "オレンジマーマレード",
+                "type": "ingredient",
+                "quantity": "大さじ2"
+            },
+            {
+                "id": "オレンジシフォンケーキ",
+                "type": "final",
+                "quantity": null
+            },
+            {
+                "id": "絹ごし豆腐",
+                "type": "ingredient",
+                "quantity": "130g"
+            },
+            {
+                "id": "ホットケーキミックス",
+                "type": "ingredient",
+                "quantity": "100g"
+            },
+            {
+                "id": "ミルクチョコレート",
+                "type": "ingredient",
+                "quantity": "50g"
+            },
+            {
+                "id": "豆腐の焼きチョコドーナツ",
+                "type": "final",
+                "quantity": null
+            },
+            {
+                "id": "プリン",
+                "type": "ingredient",
+                "quantity": "3個"
+            },
+            {
+                "id": "ホットケーキミックス",
+                "type": "ingredient",
+                "quantity": "150g"
+            },
+            {
+                "id": "サラダ油",
+                "type": "ingredient",
+                "quantity": "30ml"
+            },
+            {
+                "id": "プリンマフィン",
+                "type": "final",
+                "quantity": null
+            },
+            {
+                "id": "バナナ",
+                "type": "ingredient",
+                "quantity": "2本"
+            },
+            {
+                "id": "卵",
+                "type": "ingredient",
+                "quantity": "2個"
+            },
+            {
+                "id": "ホットケーキミックス",
+                "type": "ingredient",
+                "quantity": "150g"
+            },
+            {
+                "id": "簡単バナナケーキ",
+                "type": "final",
+                "quantity": null
+            }
+        ],
+        "edges": [
+            {
+                "source": "オーブン",
+                "target": "ふわふわバナナおやつパン",
+                "action": "予熱"
+            },
+            {
+                "source": "クッキングシート",
+                "target": "ふわふわバナナおやつパン",
+                "action": "準備"
+            },
+            {
+                "source": "ホットケーキミックス",
+                "target": "ポリ袋",
+                "action": "入れる"
+            },
+            {
+                "source": "バナナ",
+                "target": "ポリ袋",
+                "action": "入れる"
+            },
+            {
+                "source": "ポリ袋",
+                "target": "ポリ袋",
+                "action": "もむ、混ぜる"
+            },
+            {
+                "source": "ホワイトチョコレート",
+                "target": "ポリ袋",
+                "action": "割り入れる、混ぜる"
+            },
+            {
+                "source": "ポリ袋",
+                "target": "天板",
+                "action": "絞り出す"
+            },
+            {
+                "source": "天板",
+                "target": "ふわふわバナナおやつパン",
+                "action": "170℃のオーブンで焼く"
+            },
+            {
+                "source": "ふわふわバナナおやつパン",
+                "target": "ふわふわバナナおやつパン",
+                "action": "完成"
+            },
+            {
+                "source": "オーブン",
+                "target": "オレンジシフォンケーキ",
+                "action": "予熱"
+            },
+            {
+                "source": "卵",
+                "target": "耐熱ボウル",
+                "action": "割り入れる、かき混ぜる"
+            },
+            {
+                "source": "電子レンジ",
+                "target": "卵",
+                "action": "30秒温める"
+            },
+            {
+                "source": "オレンジマーマレード",
+                "target": "耐熱ボウル",
+                "action": "入れる、泡立てる"
+            },
+            {
+                "source": "ホットケーキミックス",
+                "target": "生地",
+                "action": "混ぜ合わせる"
+            },
+            {
+                "source": "生地",
+                "target": "型",
+                "action": "流し入れる"
+            },
+            {
+                "source": "型",
+                "target": "オレンジシフォンケーキ",
+                "action": "170℃のオーブンで焼く"
+            },
+            {
+                "source": "オレンジシフォンケーキ",
+                "target": "オレンジシフォンケーキ",
+                "action": "完成"
+            },
+            {
+                "source": "オーブン",
+                "target": "豆腐の焼きチョコドーナツ",
+                "action": "予熱"
+            },
+            {
+                "source": "ミルクチョコレート",
+                "target": "ボウル",
+                "action": "刻む、湯煎する"
+            },
+            {
+                "source": "絹ごし豆腐",
+                "target": "ボウル",
+                "action": "潰す、混ぜ合わせる"
+            },
+            {
+                "source": "ホットケーキミックス",
+                "target": "ボウル",
+                "action": "混ぜ合わせる"
+            },
+            {
+                "source": "ドーナツ型",
+                "target": "ボウル",
+                "action": "流し入れる"
+            },
+            {
+                "source": "ドーナツ型",
+                "target": "豆腐の焼きチョコドーナツ",
+                "action": "180℃のオーブンで焼く"
+            },
+            {
+                "source": "豆腐の焼きチョコドーナツ",
+                "target": "豆腐の焼きチョコドーナツ",
+                "action": "完成"
+            },
+            {
+                "source": "オーブン",
+                "target": "プリンマフィン",
+                "action": "予熱"
+            },
+            {
+                "source": "マフィン型",
+                "target": "クッキングシート",
+                "action": "準備"
+            },
+            {
+                "source": "プリン",
+                "target": "ボウル",
+                "action": "混ぜる"
+            },
+            {
+                "source": "サラダ油",
+                "target": "ボウル",
+                "action": "混ぜ合わせる"
+            },
+            {
+                "source": "ホットケーキミックス",
+                "target": "ボウル",
+                "action": "混ぜ合わせる"
+            },
+            {
+                "source": "ボウル",
+                "target": "型",
+                "action": "流し入れる"
+            },
+            {
+                "source": "型",
+                "target": "プリンマフィン",
+                "action": "180℃のオーブンで焼く"
+            },
+            {
+                "source": "プリンマフィン",
+                "target": "器",
+                "action": "型から外す、盛り付ける"
+            },
+            {
+                "source": "プリンマフィン",
+                "target": "プリンマフィン",
+                "action": "完成"
+            },
+            {
+                "source": "オーブン",
+                "target": "簡単バナナケーキ",
+                "action": "予熱"
+            },
+            {
+                "source": "バナナ",
+                "target": "ボウル",
+                "action": "潰す"
+            },
+            {
+                "source": "卵",
+                "target": "ボウル",
+                "action": "混ぜ合わせる"
+            },
+            {
+                "source": "ホットケーキミックス",
+                "target": "ボウル",
+                "action": "混ぜ合わせる"
+            },
+            {
+                "source": "型",
+                "target": "クッキングシート",
+                "action": "準備"
+            },
+            {
+                "source": "ボウル",
+                "target": "型",
+                "action": "流し入れる"
+            },
+            {
+                "source": "型",
+                "target": "簡単バナナケーキ",
+                "action": "180℃のオーブンで焼く"
+            },
+            {
+                "source": "簡単バナナケーキ",
+                "target": "型",
+                "action": "粗熱を取る、外す"
+            },
+            {
+                "source": "簡単バナナケーキ",
+                "target": "簡単バナナケーキ",
+                "action": "完成"
+            }
+        ]
+    },
+    "https://www.kurashiru.com/articles/cc07118a-a7dc-42e6-a72f-67b045778135": {
+        "nodes": [
+            {
+                "id": "ナス",
+                "type": "ingredient",
+                "quantity": "3本"
+            },
+            {
+                "id": "長ねぎ",
+                "type": "ingredient",
+                "quantity": "1本"
+            },
+            {
+                "id": "豚ひき肉",
+                "type": "ingredient",
+                "quantity": "150g"
+            },
+            {
+                "id": "豆板醤",
+                "type": "ingredient",
+                "quantity": "大さじ1/2"
+            },
+            {
+                "id": "すりおろし生姜",
+                "type": "ingredient",
+                "quantity": "小さじ1"
+            },
+            {
+                "id": "すりおろしニンニク",
+                "type": "ingredient",
+                "quantity": "小さじ1"
+            },
+            {
+                "id": "鷹の爪輪切り",
+                "type": "ingredient",
+                "quantity": "小さじ1/2"
+            },
+            {
+                "id": "水",
+                "type": "ingredient",
+                "quantity": "150ml"
+            },
+            {
+                "id": "めんつゆ（2倍濃縮）",
+                "type": "ingredient",
+                "quantity": "大さじ3"
+            },
+            {
+                "id": "水溶き片栗粉",
+                "type": "ingredient",
+                "quantity": "大さじ2"
+            },
+            {
+                "id": "ラー油",
+                "type": "ingredient",
+                "quantity": "大さじ1/2"
+            },
+            {
+                "id": "ごま油",
+                "type": "ingredient",
+                "quantity": "大さじ1"
+            },
+            {
+                "id": "小ねぎ (小口切り)",
+                "type": "ingredient",
+                "quantity": "適量"
+            },
+            {
+                "id": "麻婆茄子",
+                "type": "final",
+                "quantity": null
+            }
+        ],
+        "edges": [
+            {
+                "source": "ナス",
+                "target": "麻婆茄子",
+                "action": "使用"
+            },
+            {
+                "source": "長ねぎ",
+                "target": "麻婆茄子",
+                "action": "使用"
+            },
+            {
+                "source": "豚ひき肉",
+                "target": "麻婆茄子",
+                "action": "使用"
+            },
+            {
+                "source": "豆板醤",
+                "target": "麻婆茄子",
+                "action": "使用"
+            },
+            {
+                "source": "すりおろし生姜",
+                "target": "麻婆茄子",
+                "action": "使用"
+            },
+            {
+                "source": "すりおろしニンニク",
+                "target": "麻婆茄子",
+                "action": "使用"
+            },
+            {
+                "source": "鷹の爪輪切り",
+                "target": "麻婆茄子",
+                "action": "使用"
+            },
+            {
+                "source": "水",
+                "target": "麻婆茄子",
+                "action": "使用"
+            },
+            {
+                "source": "めんつゆ（2倍濃縮）",
+                "target": "麻婆茄子",
+                "action": "使用"
+            },
+            {
+                "source": "水溶き片栗粉",
+                "target": "麻婆茄子",
+                "action": "使用"
+            },
+            {
+                "source": "ラー油",
+                "target": "麻婆茄子",
+                "action": "使用"
+            },
+            {
+                "source": "ごま油",
+                "target": "麻婆茄子",
+                "action": "使用"
+            },
+            {
+                "source": "ごま油",
+                "target": "豚ひき肉",
+                "action": "炒める"
+            },
+            {
+                "source": "長ねぎ",
+                "target": "豚ひき肉",
+                "action": "炒める"
+            },
+            {
+                "source": "豚ひき肉",
+                "target": "豚ひき肉",
+                "action": "炒める"
+            },
+            {
+                "source": "豆板醤",
+                "target": "豚ひき肉",
+                "action": "炒める"
+            },
+            {
+                "source": "すりおろし生姜",
+                "target": "豚ひき肉",
+                "action": "炒める"
+            },
+            {
+                "source": "すりおろしニンニク",
+                "target": "豚ひき肉",
+                "action": "炒める"
+            },
+            {
+                "source": "鷹の爪輪切り",
+                "target": "豚ひき肉",
+                "action": "炒める"
+            },
+            {
+                "source": "ナス",
+                "target": "豚ひき肉",
+                "action": "炒める"
+            },
+            {
+                "source": "豚ひき肉",
+                "target": "ナス",
+                "action": "焼く"
+            },
+            {
+                "source": "水",
+                "target": "麻婆茄子",
+                "action": "煮る"
+            },
+            {
+                "source": "めんつゆ",
+                "target": "麻婆茄子",
+                "action": "煮る"
+            },
+            {
+                "source": "水溶き片栗粉",
+                "target": "麻婆茄子",
+                "action": "とろみをつける"
+            },
+            {
+                "source": "ラー油",
+                "target": "麻婆茄子",
+                "action": "かける"
+            },
+            {
+                "source": "麻婆茄子",
+                "target": "器",
+                "action": "盛り付ける"
+            },
+            {
+                "source": "小ねぎ",
+                "target": "麻婆茄子",
+                "action": "散らす"
+            }
+        ]
+    },
+    "https://www.kurashiru.com/recipes/06b58bed-def1-4105-8c46-a02ad561a5f5": {
+        "nodes": [
+            {
+                "id": "溶かしバター",
+                "type": "ingredient",
+                "quantity": "25g"
+            },
+            {
+                "id": "卵",
+                "type": "ingredient",
+                "quantity": "1個"
+            },
+            {
+                "id": "プリン",
+                "type": "ingredient",
+                "quantity": "1/2個"
+            },
+            {
+                "id": "ホットケーキミックス",
+                "type": "ingredient",
+                "quantity": "100g"
+            },
+            {
+                "id": "牛乳",
+                "type": "ingredient",
+                "quantity": "40ml"
+            },
+            {
+                "id": "生地",
+                "type": "intermediate",
+                "quantity": null
+            },
+            {
+                "id": "ホットケーキ",
+                "type": "final",
+                "quantity": null
+            }
+        ],
+        "edges": [
+            {
+                "source": "溶かしバター",
+                "target": "生地",
+                "action": "加える"
+            },
+            {
+                "source": "卵",
+                "target": "生地",
+                "action": "混ぜる"
+            },
+            {
+                "source": "牛乳",
+                "target": "生地",
+                "action": "混ぜる"
+            },
+            {
+                "source": "ホットケーキミックス",
+                "target": "生地",
+                "action": "混ぜる"
+            },
+            {
+                "source": "プリン",
+                "target": "生地",
+                "action": "混ぜる"
+            },
+            {
+                "source": "生地",
+                "target": "ホットケーキ",
+                "action": "型に入れる"
+            },
+            {
+                "source": "生地",
+                "target": "ホットケーキ",
+                "action": "焼く"
+            }
+        ]
+    },
+    "https://www.kurashiru.com/recipes/bbe38a78-a893-4941-a43e-6d21adf59d5c": {
+        "nodes": [
+            {
+                "id": "プリン",
+                "type": "ingredient",
+                "quantity": "210g"
+            },
+            {
+                "id": "ホットケーキミックス",
+                "type": "ingredient",
+                "quantity": "150g"
+            },
+            {
+                "id": "サラダ油",
+                "type": "ingredient",
+                "quantity": "30ml"
+            },
+            {
+                "id": "デザート",
+                "type": "final",
+                "quantity": null
+            }
+        ],
+        "edges": [
+            {
+                "source": "オーブン",
+                "target": "プリン",
+                "action": "予熱"
+            },
+            {
+                "source": "グラシン紙",
+                "target": "マフィン型",
+                "action": "敷く"
+            },
+            {
+                "source": "プリン",
+                "target": "ボウル",
+                "action": "混ぜる"
+            },
+            {
+                "source": "サラダ油",
+                "target": "プリン",
+                "action": "加える"
+            },
+            {
+                "source": "ホットケーキミックス",
+                "target": "プリン",
+                "action": "混ぜる"
+            },
+            {
+                "source": "180℃",
+                "target": "プリン",
+                "action": "焼く"
+            },
+            {
+                "source": "デザート",
+                "target": "プリン",
+                "action": "盛り付ける"
+            }
+        ]
+    },
+    "https://www.sirogohan.com/recipe/toumorokosirenji/": {
+        "nodes": [
+            {
+                "id": "皮つきとうもろこし",
+                "type": "ingredient",
+                "quantity": "1本"
+            },
+            {
+                "id": "塩",
+                "type": "ingredient",
+                "quantity": "小さじ1/5"
+            },
+            {
+                "id": "水",
+                "type": "ingredient",
+                "quantity": "小さじ1"
+            },
+            {
+                "id": "塩水",
+                "type": "intermediate",
+                "quantity": null
+            },
+            {
+                "id": "ラップ",
+                "type": "material",
+                "quantity": null
+            },
+            {
+                "id": "とうもろこしの皮をむく",
+                "type": "action",
+                "quantity": null
+            },
+            {
+                "id": "ひげを除く",
+                "type": "action",
+                "quantity": null
+            },
+            {
+                "id": "とうもろこしの水気を含ませる",
+                "type": "action",
+                "quantity": null
+            },
+            {
+                "id": "とうもろこしを加熱する",
+                "type": "action",
+                "quantity": null
+            },
+            {
+                "id": "レンジ調理とうもろこし",
+                "type": "final",
+                "quantity": null
+            }
+        ],
+        "edges": []
+    },
+    "https://www.sirogohan.com/recipe/ko-nsu-pu/": {
+        "nodes": [
+            {
+                "id": "とうもろこし",
+                "type": "ingredient",
+                "quantity": "1本"
+            },
+            {
+                "id": "じゃが芋（男爵）",
+                "type": "ingredient",
+                "quantity": "大1/2個（100g）"
+            },
+            {
+                "id": "昆布だし",
+                "type": "ingredient",
+                "quantity": "250ml"
+            },
+            {
+                "id": "牛乳",
+                "type": "ingredient",
+                "quantity": "150ml"
+            },
+            {
+                "id": "塩（自然塩）",
+                "type": "ingredient",
+                "quantity": "小さじ1/2"
+            },
+            {
+                "id": "こしょう",
+                "type": "ingredient",
+                "quantity": "少々"
+            },
+            {
+                "id": "裏ごししたスープ",
+                "type": "intermediate",
+                "quantity": null
+            },
+            {
+                "id": "コーンスープ（ポタージュ）",
+                "type": "final",
+                "quantity": null
+            }
+        ],
+        "edges": [
+            {
+                "source": "とうもろこし",
+                "target": "裏ごししたスープ",
+                "action": "裏ごし"
+            },
+            {
+                "source": "じゃが芋（男爵）",
+                "target": "裏ごししたスープ",
+                "action": "裏ごし"
+            },
+            {
+                "source": "昆布だし",
+                "target": "じゃが芋（男爵）",
+                "action": "火を通す"
+            },
+            {
+                "source": "じゃが芋（男爵）",
+                "target": "裏ごししたスープ",
+                "action": "火を通す"
+            },
+            {
+                "source": "牛乳",
+                "target": "裏ごししたスープ",
+                "action": "混ぜる"
+            },
+            {
+                "source": "塩（自然塩）",
+                "target": "裏ごししたスープ",
+                "action": "調味する"
+            },
+            {
+                "source": "こしょう",
+                "target": "コーンスープ（ポタージュ）",
+                "action": "調味する"
+            },
+            {
+                "source": "裏ごししたスープ",
+                "target": "コーンスープ（ポタージュ）",
+                "action": "仕上げ"
+            }
+        ]
+    },
+    "https://www.sirogohan.com/recipe/mozukusu-pu/": {
+        "nodes": [
+            {
+                "id": "もずく（生食用）",
+                "type": "ingredient",
+                "quantity": "100g"
+            },
+            {
+                "id": "生姜",
+                "type": "ingredient",
+                "quantity": "1かけ（10g）"
+            },
+            {
+                "id": "刻みねぎ",
+                "type": "ingredient",
+                "quantity": "少々"
+            },
+            {
+                "id": "白いりごま",
+                "type": "ingredient",
+                "quantity": "少々"
+            },
+            {
+                "id": "だし汁",
+                "type": "ingredient",
+                "quantity": "500ml"
+            },
+            {
+                "id": "醤油（あれば薄口）",
+                "type": "ingredient",
+                "quantity": "小さじ1"
+            },
+            {
+                "id": "塩",
+                "type": "ingredient",
+                "quantity": "小さじ2/3"
+            },
+            {
+                "id": "しょうがしぼり汁",
+                "type": "intermediate",
+                "quantity": null
+            },
+            {
+                "id": "もずくスープ",
+                "type": "final",
+                "quantity": null
+            }
+        ],
+        "edges": [
+            {
+                "source": "だし汁",
+                "target": "もずくスープ",
+                "action": "入れる"
+            },
+            {
+                "source": "醤油（あれば薄口）",
+                "target": "もずくスープ",
+                "action": "加える"
+            },
+            {
+                "source": "塩",
+                "target": "もずくスープ",
+                "action": "加える"
+            },
+            {
+                "source": "もずく（生食用）",
+                "target": "もずくスープ",
+                "action": "入れる"
+            },
+            {
+                "source": "しょうがしぼり汁",
+                "target": "もずくスープ",
+                "action": "加える"
+            },
+            {
+                "source": "刻みねぎ",
+                "target": "もずくスープ",
+                "action": "ちらす"
+            },
+            {
+                "source": "白いりごま",
+                "target": "もずくスープ",
+                "action": "ちらす"
+            },
+            {
+                "source": "生姜",
+                "target": "しょうがしぼり汁",
+                "action": "おろす"
+            },
+            {
+                "source": "しょうがしぼり汁",
+                "target": "もずくスープ",
+                "action": "しぼる"
+            }
+        ]
+    },
+    "https://www.sirogohan.com/recipe/hanba-gu/": {
+        "nodes": [
+            {
+                "id": "合びき肉",
+                "type": "ingredient",
+                "quantity": "250〜300g"
+            },
+            {
+                "id": "玉ねぎ",
+                "type": "ingredient",
+                "quantity": "1個"
+            },
+            {
+                "id": "パン粉",
+                "type": "ingredient",
+                "quantity": "大さじ4"
+            },
+            {
+                "id": "牛乳",
+                "type": "ingredient",
+                "quantity": "大さじ4〜5"
+            },
+            {
+                "id": "おろしにんにく",
+                "type": "ingredient",
+                "quantity": "1/2片分"
+            },
+            {
+                "id": "塩",
+                "type": "ingredient",
+                "quantity": "小さじ1/2"
+            },
+            {
+                "id": "砂糖",
+                "type": "ingredient",
+                "quantity": "小さじ1/2"
+            },
+            {
+                "id": "こしょう",
+                "type": "ingredient",
+                "quantity": "少々"
+            },
+            {
+                "id": "サラダ油",
+                "type": "ingredient",
+                "quantity": "大さじ1"
+            },
+            {
+                "id": "ハンバーグのたね",
+                "type": "intermediate",
+                "quantity": null
+            },
+            {
+                "id": "焼き上げたハンバーグ",
+                "type": "intermediate",
+                "quantity": null
+            },
+            {
+                "id": "ハンバーグ",
+                "type": "final",
+                "quantity": null
+            },
+            {
+                "id": "ケチャップ",
+                "type": "ingredient",
+                "quantity": "大さじ3"
+            },
+            {
+                "id": "ウスターソース",
+                "type": "ingredient",
+                "quantity": "大さじ1と1/2"
+            },
+            {
+                "id": "しょうゆ",
+                "type": "ingredient",
+                "quantity": "大さじ1"
+            },
+            {
+                "id": "ハンバーグソース",
+                "type": "intermediate",
+                "quantity": null
+            }
+        ],
+        "edges": [
+            {
+                "source": "玉ねぎ",
+                "target": "サラダ油",
+                "action": "炒める"
+            },
+            {
+                "source": "玉ねぎ",
+                "target": "ハンバーグのたね",
+                "action": "混ぜる"
+            },
+            {
+                "source": "合びき肉",
+                "target": "ハンバーグのたね",
+                "action": "混ぜる"
+            },
+            {
+                "source": "パン粉",
+                "target": "ハンバーグのたね",
+                "action": "混ぜる"
+            },
+            {
+                "source": "牛乳",
+                "target": "ハンバーグのたね",
+                "action": "混ぜる"
+            },
+            {
+                "source": "おろしにんにく",
+                "target": "ハンバーグのたね",
+                "action": "混ぜる"
+            },
+            {
+                "source": "塩",
+                "target": "ハンバーグのたね",
+                "action": "混ぜる"
+            },
+            {
+                "source": "砂糖",
+                "target": "ハンバーグのたね",
+                "action": "混ぜる"
+            },
+            {
+                "source": "こしょう",
+                "target": "ハンバーグのたね",
+                "action": "混ぜる"
+            },
+            {
+                "source": "サラダ油",
+                "target": "玉ねぎ",
+                "action": "炒める"
+            },
+            {
+                "source": "ハンバーグのたね",
+                "target": "焼き上げたハンバーグ",
+                "action": "焼く"
+            },
+            {
+                "source": "焼き上げたハンバーグ",
+                "target": "ハンバーグ",
+                "action": "盛り付ける"
+            },
+            {
+                "source": "ケチャップ",
+                "target": "ハンバーグソース",
+                "action": "混ぜる"
+            },
+            {
+                "source": "ウスターソース",
+                "target": "ハンバーグソース",
+                "action": "混ぜる"
+            },
+            {
+                "source": "しょうゆ",
+                "target": "ハンバーグソース",
+                "action": "混ぜる"
+            },
+            {
+                "source": "ハンバーグソース",
+                "target": "ハンバーグ",
+                "action": "かける"
+            }
+        ]
+    },
+    "https://www.kurashiru.com/recipes/b9399c72-56d9-4a66-b9df-ca421a7b9395": {
+        "nodes": [
+            {
+                "id": "サンマ",
+                "type": "ingredient",
+                "quantity": "1尾"
+            },
+            {
+                "id": "薄力粉",
+                "type": "ingredient",
+                "quantity": "適量"
+            },
+            {
+                "id": "しょうゆ",
+                "type": "ingredient",
+                "quantity": "大さじ1"
+            },
+            {
+                "id": "酒",
+                "type": "ingredient",
+                "quantity": "大さじ1"
+            },
+            {
+                "id": "みりん",
+                "type": "ingredient",
+                "quantity": "大さじ2"
+            },
+            {
+                "id": "万能ねぎ",
+                "type": "ingredient",
+                "quantity": "適量"
+            },
+            {
+                "id": "白ごま",
+                "type": "ingredient",
+                "quantity": "適量"
+            },
+            {
+                "id": "サラダ油",
+                "type": "ingredient",
+                "quantity": "大さじ1"
+            },
+            {
+                "id": "ごはん",
+                "type": "ingredient",
+                "quantity": "1膳"
+            },
+            {
+                "id": "調味料",
+                "type": "intermediate",
+                "quantity": null
+            },
+            {
+                "id": "焼いたサンマ",
+                "type": "intermediate",
+                "quantity": null
+            },
+            {
+                "id": "さんまの蒲焼き丼",
+                "type": "final",
+                "quantity": null
+            }
+        ],
+        "edges": [
+            {
+                "source": "サンマ",
+                "target": "焼いたサンマ",
+                "action": "焼く"
+            },
+            {
+                "source": "薄力粉",
+                "target": "サンマ",
+                "action": "まぶす"
+            },
+            {
+                "source": "しょうゆ",
+                "target": "調味料",
+                "action": "混ぜる"
+            },
+            {
+                "source": "酒",
+                "target": "調味料",
+                "action": "混ぜる"
+            },
+            {
+                "source": "みりん",
+                "target": "調味料",
+                "action": "混ぜる"
+            },
+            {
+                "source": "調味料",
+                "target": "焼いたサンマ",
+                "action": "煮詰める"
+            },
+            {
+                "source": "サラダ油",
+                "target": "サンマ",
+                "action": "焼く"
+            },
+            {
+                "source": "焼いたサンマ",
+                "target": "さんまの蒲焼き丼",
+                "action": "盛り付ける"
+            },
+            {
+                "source": "ごはん",
+                "target": "さんまの蒲焼き丼",
+                "action": "盛り付ける"
+            },
+            {
+                "source": "万能ねぎ",
+                "target": "さんまの蒲焼き丼",
+                "action": "かける"
+            },
+            {
+                "source": "白ごま",
+                "target": "さんまの蒲焼き丼",
+                "action": "かける"
+            }
+        ]
+    },
+    "https://news.cookpad.com/articles/53013": {
+        "nodes": [
+            {
+                "id": "さんま",
+                "type": "ingredient",
+                "quantity": "2尾"
+            },
+            {
+                "id": "酒",
+                "type": "ingredient",
+                "quantity": "大さじ2"
+            },
+            {
+                "id": "みりん",
+                "type": "ingredient",
+                "quantity": "大さじ2"
+            },
+            {
+                "id": "しょうゆ",
+                "type": "ingredient",
+                "quantity": "大さじ2"
+            },
+            {
+                "id": "おろししょうが(チューブでOK)",
+                "type": "ingredient",
+                "quantity": "小さじ1"
+            },
+            {
+                "id": "片栗粉",
+                "type": "ingredient",
+                "quantity": "適量"
+            },
+            {
+                "id": "油",
+                "type": "ingredient",
+                "quantity": "適量"
+            },
+            {
+                "id": "塩",
+                "type": "ingredient",
+                "quantity": "適量"
+            },
+            {
+                "id": "さんまの下味",
+                "type": "intermediate",
+                "quantity": null
+            },
+            {
+                "id": "さんまの竜田揚げ",
+                "type": "final",
+                "quantity": null
+            }
+        ],
+        "edges": [
+            {
+                "source": "さんま",
+                "target": "さんまの下味",
+                "action": "切る"
+            },
+            {
+                "source": "酒",
+                "target": "さんまの下味",
+                "action": "混ぜる"
+            },
+            {
+                "source": "みりん",
+                "target": "さんまの下味",
+                "action": "混ぜる"
+            },
+            {
+                "source": "しょうゆ",
+                "target": "さんまの下味",
+                "action": "混ぜる"
+            },
+            {
+                "source": "おろししょうが(チューブでOK)",
+                "target": "さんまの下味",
+                "action": "混ぜる"
+            },
+            {
+                "source": "さんまの下味",
+                "target": "さんま",
+                "action": "つける"
+            },
+            {
+                "source": "片栗粉",
+                "target": "さんま",
+                "action": "まぶす"
+            },
+            {
+                "source": "油",
+                "target": "さんま",
+                "action": "揚げる"
+            },
+            {
+                "source": "塩",
+                "target": "さんまの竜田揚げ",
+                "action": "ふる"
+            },
+            {
+                "source": "さんま",
+                "target": "さんまの竜田揚げ",
+                "action": "盛り付ける"
+            }
+        ]
+    },
+
+    "美味しいご飯": [
+        null,
+        null
+    ],
+    "https://recipe.rakuten.co.jp/recipe/1410015495/": {
+        "nodes": [
+            {
+                "id": "ココア（加糖）",
+                "type": "ingredient",
+                "quantity": "大さじ2"
+            },
+            {
+                "id": "牛乳",
+                "type": "ingredient",
+                "quantity": "120ml"
+            },
+            {
+                "id": "氷",
+                "type": "ingredient",
+                "quantity": "6個"
+            },
+            {
+                "id": "チョコアイス",
+                "type": "ingredient",
+                "quantity": "スプーン1杯"
+            },
+            {
+                "id": "チョコスプレー",
+
+    "https://www.kurashiru.com/lists/ac49b572-5fac-4cbb-bb00-0564a7938a78": {
+        "nodes": [
+            {
+                "id": "市販のタルト台",
+                "type": "ingredient",
+                "quantity": "1個"
+            },
+            {
+                "id": "クリームチーズ",
+
+                "type": "ingredient",
+                "quantity": "適量"
+            },
+            {
+
+                "id": "濃厚アイスココア",
+                "type": "final",
+                "quantity": null
+            }
+        ],
+        "edges": [
+            {
+                "source": "ココア（加糖）",
+                "target": "グラス",
+                "action": "入れる"
+            },
+            {
+                "source": "牛乳",
+                "target": "ココア（加糖）",
+                "action": "練る"
+            },
+            {
+                "source": "牛乳",
+                "target": "ココア（加糖）",
+                "action": "混ぜ合わせる"
+            },
+            {
+                "source": "氷",
+                "target": "濃厚アイスココア",
+                "action": "入れる"
+            },
+            {
+                "source": "チョコアイス",
+                "target": "濃厚アイスココア",
+                "action": "のせる"
+            },
+            {
+                "source": "チョコスプレー",
+                "target": "濃厚アイスココア",
+                "action": "かける"
+            }
+        ]
+    },
+    "https://recipe.rakuten.co.jp/recipe/1580034931/?rafcid=wsc_r_cr_1042662640738428361": {
+        "nodes": [
+            {
+                "id": "牛乳",
+                "type": "ingredient",
+                "quantity": "150cc"
+            },
+            {
+                "id": "純ココア",
+                "type": "ingredient",
+                "quantity": "小さじ2"
+
+                "id": "生クリーム",
+                "type": "ingredient",
+                "quantity": "適量"
+
+            },
+            {
+                "id": "砂糖",
+                "type": "ingredient",
+
+                "quantity": "小さじ2"
+            },
+            {
+                "id": "ココアペースト",
+                "type": "intermediate",
+                "quantity": null
+            },
+            {
+                "id": "ココアドリンク",
+                "type": "final",
+                "quantity": null
+            }
+        ],
+        "edges": [
+            {
+                "source": "純ココア",
+                "target": "ココアペースト",
+                "action": "混ぜる"
+            },
+            {
+                "source": "砂糖",
+                "target": "ココアペースト",
+                "action": "混ぜる"
+            },
+            {
+                "source": "牛乳",
+                "target": "ココアペースト",
+                "action": "加える"
+            },
+            {
+                "source": "ココアペースト",
+                "target": "ココアドリンク",
+                "action": "混ぜる"
+            },
+            {
+                "source": "牛乳",
+                "target": "ココアドリンク",
+                "action": "加える"
+            }
+        ]
+    },
+    "マリオ": [
+        null,
+        null
+    ],
+    "まりお": [
+        null,
+        null
+    ],
+    "https://recipe.rakuten.co.jp/recipe/1180006594/": {
+        "nodes": [
+            {
+                "id": "子持ちなめたカレイ切り身",
+                "type": "ingredient",
+                "quantity": "４枚"
+            },
+            {
+                "id": "☆酒",
+                "type": "ingredient",
+                "quantity": "１００ｃｃ"
+            },
+            {
+                "id": "☆醤油",
+                "type": "ingredient",
+                "quantity": "大さじ３強"
+            },
+            {
+                "id": "☆みりん",
+                "type": "ingredient",
+                "quantity": "大さじ３"
+            },
+            {
+                "id": "☆三温糖（ふつうの砂糖でも）",
+                "type": "ingredient",
+                "quantity": "小さじ１弱"
+            },
+            {
+                "id": "☆しょうが",
+                "type": "ingredient",
+                "quantity": "１片"
+            },
+            {
+                "id": "☆ねぎの青い部分（なくても）",
+                "type": "ingredient",
+                "quantity": "１本分"
+            },
+            {
+                "id": "フライパン",
+                "type": "tool",
+                "quantity": null
+            },
+            {
+                "id": "煮立ったなめたカレイを入れる",
+                "type": "action",
+                "quantity": null
+            },
+            {
+                "id": "煮汁を全体に回しかける",
+                "type": "action",
+                "quantity": null
+            },
+            {
+                "id": "落とし蓋をして中弱火で１０分程煮る",
+                "type": "action",
+                "quantity": null
+            }
+        ],
+        "edges": [
+            {
+                "source": "子持ちなめたカレイ切り身",
+                "target": "☆酒",
+                "action": "煮る"
+            },
+            {
+                "source": "☆酒",
+                "target": "☆醤油",
+                "action": "煮る"
+            },
+            {
+                "source": "☆醤油",
+                "target": "☆みりん",
+                "action": "煮る"
+            },
+            {
+                "source": "☆みりん",
+                "target": "☆三温糖",
+                "action": "煮る"
+            },
+            {
+                "source": "☆三温糖",
+                "target": "☆しょうが",
+                "action": "煮る"
+            },
+            {
+                "source": "☆しょうが",
+                "target": "☆ねぎの青い部分",
+                "action": "煮る"
+            },
+            {
+                "source": "フライパン",
+                "target": "煮立ったなめたカレイを入れる",
+                "action": "入れる"
+            },
+            {
+                "source": "煮汁を全体に回しかける",
+                "target": "落とし蓋をして中弱火で１０分程煮る",
+                "action": "煮る"
+            },
+            {
+                "source": "落とし蓋をして中弱火で１０分程煮る",
+                "target": "子持ちなめたカレイ切り身",
+                "action": "煮る"
+            },
+            {
+                "source": "煮汁を全体に回しかける",
+                "target": "煮汁を全体に回しかける",
+                "action": "煮る"
+            }
+        ]
+    },
+    "https://recipe.rakuten.co.jp/recipe/1490003865/?rafcid=wsc_r_cr_1042662640738428361": {
+        "nodes": [
+            {
+                "id": "殻付きあさり",
+                "type": "ingredient",
+                "quantity": "350g"
+            },
+            {
+                "id": "刻みネギ",
+                "type": "ingredient",
+                "quantity": "お好みで"
+            },
+            {
+                "id": "酒",
+                "type": "ingredient",
+                "quantity": "200cc"
+            },
+            {
+                "id": "だし醤油",
+                "type": "ingredient",
+                "quantity": "大2～"
+            },
+            {
+                "id": "あさり",
+                "type": "intermediate",
+                "quantity": null
+            },
+            {
+                "id": "あさりの酒蒸し",
+                "type": "final",
+                "quantity": null
+            }
+        ],
+        "edges": [
+            {
+                "source": "殻付きあさり",
+                "target": "あさり",
+                "action": "使用する"
+            },
+            {
+                "source": "刻みネギ",
+                "target": "あさりの酒蒸し",
+                "action": "トッピング"
+            },
+            {
+                "source": "酒",
+                "target": "あさり",
+                "action": "使用する"
+            },
+            {
+                "source": "だし醤油",
+                "target": "あさりの酒蒸し",
+                "action": "味付け"
+            },
+            {
+                "source": "あさり",
+                "target": "あさりの酒蒸し",
+                "action": "調理"
+            }
+        ]
+    },
+    "https://recipe.rakuten.co.jp/recipe/1140053578/?rafcid=wsc_r_cr_1042662640738428361": {
+        "nodes": [
+            {
+                "id": "冷凍むきあさり",
+                "type": "ingredient",
+                "quantity": "1/2カップ"
+            },
+            {
+                "id": "乾燥わかめ",
+                "type": "ingredient",
+                "quantity": "大匙2"
+
+                "quantity": "適量"
+            },
+            {
+                "id": "粉ゼラチン",
+                "type": "ingredient",
+                "quantity": "適量"
+
+            },
+            {
+                "id": "水",
+                "type": "ingredient",
+
+                "quantity": "500cc"
+            },
+            {
+                "id": "白葱",
+                "type": "ingredient",
+                "quantity": "大匙1"
+            },
+            {
+                "id": "味噌",
+                "type": "ingredient",
+                "quantity": "大匙山盛り1"
+            },
+            {
+                "id": "お椀",
+                "type": "intermediate",
+                "quantity": null
+            },
+            {
+                "id": "お味噌汁",
+                "type": "final",
+                "quantity": null
+            }
+        ],
+        "edges": [
+            {
+                "source": "乾燥わかめ",
+                "target": "水",
+                "action": "戻す"
+            },
+            {
+                "source": "冷凍むきあさり",
+                "target": "水",
+                "action": "入れる"
+            },
+            {
+                "source": "水",
+                "target": "味噌",
+                "action": "溶かし入れる"
+            },
+            {
+                "source": "味噌",
+                "target": "乾燥わかめ",
+                "action": "入れる"
+            },
+            {
+                "source": "お椀",
+                "target": "お味噌汁",
+                "action": "注ぐ"
+            },
+            {
+                "source": "白葱",
+                "target": "お味噌汁",
+                "action": "散らす"
+            },
+            {
+                "source": "乾燥わかめ",
+                "target": "お味噌汁",
+                "action": "完成"
+            }
+        ]
+    },
+    "https://recipe.rakuten.co.jp/recipe/1780026670/?rafcid=wsc_r_cr_1042662640738428361": {
+        "nodes": [
+            {
+                "id": "豚ひき肉",
+                "type": "ingredient",
+                "quantity": "50g"
+            },
+            {
+                "id": "ごま油",
+                "type": "ingredient",
+                "quantity": "小さじ1/4"
+            },
+            {
+                "id": "豆板醤",
+                "type": "ingredient",
+                "quantity": "小さじ1/8"
+            },
+            {
+                "id": "酒",
+                "type": "ingredient",
+                "quantity": "小さじ1"
+            },
+            {
+                "id": "醤油",
+                "type": "ingredient",
+                "quantity": "小さじ1"
+            },
+            {
+                "id": "すりにんにく",
+                "type": "ingredient",
+                "quantity": "少々"
+            },
+            {
+                "id": "砂糖",
+                "type": "ingredient",
+                "quantity": "ふたつまみ"
+            },
+            {
+                "id": "もやし",
+                "type": "ingredient",
+                "quantity": "1/4袋"
+            },
+            {
+                "id": "青ネギ",
+                "type": "ingredient",
+                "quantity": "小さじ2"
+            },
+            {
+                "id": "味噌ラーメン",
+
+                "quantity": "適量"
+            },
+            {
+                "id": "いちご",
+                "type": "ingredient",
+                "quantity": "適量"
+            },
+            {
+                "id": "お湯",
+                "type": "ingredient",
+                "quantity": "適量"
+            },
+            {
+                "id": "いちごタルト",
+
+                "type": "final",
+                "quantity": null
+            }
+        ],
+        "edges": [
+            {
+
+                "source": "豚ひき肉",
+                "target": "ごま油",
+                "action": "炒める"
+            },
+            {
+                "source": "豚ひき肉",
+                "target": "豆板醤",
+                "action": "炒める"
+            },
+            {
+                "source": "豚ひき肉",
+                "target": "酒",
+                "action": "炒める"
+            },
+            {
+                "source": "豚ひき肉",
+                "target": "醤油",
+                "action": "炒める"
+            },
+            {
+                "source": "豚ひき肉",
+                "target": "すりにんにく",
+                "action": "炒める"
+            },
+            {
+                "source": "豚ひき肉",
+                "target": "砂糖",
+                "action": "炒める"
+            },
+            {
+                "source": "もやし",
+                "target": "手順",
+                "action": "湯がく"
+            },
+            {
+                "source": "豚ひき肉",
+                "target": "手順",
+                "action": "炒める"
+            },
+            {
+                "source": "青ネギ",
+                "target": "手順",
+                "action": "散らす"
+            },
+            {
+                "source": "味噌ラーメン",
+                "target": "手順",
+                "action": "器に盛り付ける"
+            }
+        ]
+    },
+    "https://recipe.rakuten.co.jp/recipe/1780026670/?rafcid=wsc_r_cr_1042662640738428361#goog_rewarded": {
+        "nodes": [
+            {
+                "id": "豚ひき肉",
+                "type": "ingredient",
+                "quantity": "50g"
+            },
+            {
+                "id": "ごま油",
+                "type": "ingredient",
+                "quantity": "小さじ1/4"
+            },
+            {
+                "id": "豆板醤",
+                "type": "ingredient",
+                "quantity": "小さじ1/8"
+            },
+            {
+                "id": "酒",
+                "type": "ingredient",
+                "quantity": "小さじ1"
+            },
+            {
+                "id": "醤油",
+                "type": "ingredient",
+                "quantity": "小さじ1"
+            },
+            {
+                "id": "すりにんにく",
+                "type": "ingredient",
+                "quantity": "少々"
+            },
+            {
+                "id": "砂糖",
+                "type": "ingredient",
+                "quantity": "ふたつまみ"
+            },
+            {
+                "id": "もやし",
+                "type": "ingredient",
+                "quantity": "1/4袋"
+            },
+            {
+                "id": "青ネギ",
+                "type": "ingredient",
+                "quantity": "小さじ2"
+            },
+            {
+                "id": "味噌ラーメン",
+                "type": "dish",
+                "quantity": "1人前"
+            },
+            {
+                "id": "ラーメン",
+                "type": "dish",
+                "quantity": "1人前"
+            }
+        ],
+        "edges": [
+            {
+                "source": "豚ひき肉",
+                "target": "ラーメン",
+                "action": "具材"
+            },
+            {
+                "source": "ごま油",
+                "target": "豚ひき肉",
+                "action": "炒める"
+            },
+            {
+                "source": "豆板醤",
+                "target": "豚ひき肉",
+                "action": "炒める"
+            },
+            {
+                "source": "酒",
+                "target": "豚ひき肉",
+                "action": "炒める"
+            },
+            {
+                "source": "醤油",
+                "target": "豚ひき肉",
+                "action": "炒める"
+            },
+            {
+                "source": "すりにんにく",
+                "target": "豚ひき肉",
+                "action": "炒める"
+            },
+            {
+                "source": "砂糖",
+                "target": "豚ひき肉",
+                "action": "炒める"
+            },
+            {
+                "source": "もやし",
+                "target": "ラーメン",
+                "action": "トッピング"
+            },
+            {
+                "source": "青ネギ",
+                "target": "ラーメン",
+                "action": "トッピング"
+            },
+            {
+                "source": "豚ひき肉",
+                "target": "味噌ラーメン",
+                "action": "具材"
+            },
+            {
+                "source": "ラーメン",
+                "target": "味噌ラーメン",
+                "action": "構成"
+            }
+        ]
+    },
+    "https://recipe.rakuten.co.jp/recipe/1290007270/?l-id=wi_rcp_Taboola": {
+        "nodes": [
+            {
+                "id": "クリームチーズ",
+                "type": "ingredient",
+                "quantity": "２１６グラム"
+            },
+            {
+                "id": "卵",
+                "type": "ingredient",
+                "quantity": "２個"
+            },
+            {
+                "id": "砂糖",
+                "type": "ingredient",
+                "quantity": "９０グラム"
+            },
+            {
+                "id": "生クリーム",
+                "type": "ingredient",
+                "quantity": "２００ｍｌ"
+            },
+            {
+                "id": "レモン汁",
+                "type": "ingredient",
+                "quantity": "大さじ２"
+            },
+            {
+                "id": "クッキー",
+                "type": "ingredient",
+                "quantity": "１００グラム"
+            },
+            {
+                "id": "溶かしバター",
+                "type": "ingredient",
+                "quantity": "２０グラム"
+            },
+            {
+                "id": "チーズケーキ",
+                "type": "final",
+                "quantity": null
+            }
+        ],
+        "edges": [
+            {
+                "source": "クリームチーズ",
+                "target": "チーズケーキ",
+                "action": "混ぜる"
+            },
+            {
+                "source": "卵",
+                "target": "チーズケーキ",
+
+                "source": "市販のタルト台",
+                "target": "いちごタルト",
+                "action": "使用する"
+            },
+            {
+                "source": "クリームチーズ",
+                "target": "いちごタルト",
+                "action": "混ぜる"
+            },
+            {
+                "source": "生クリーム",
+                "target": "いちごタルト",
+
+                "action": "混ぜる"
+            },
+            {
+                "source": "砂糖",
+
+                "target": "チーズケーキ",
+                "action": "混ぜる"
+            },
+            {
+                "source": "生クリーム",
+                "target": "チーズケーキ",
+                "action": "混ぜる"
+            },
+            {
+                "source": "レモン汁",
+                "target": "チーズケーキ",
+                "action": "混ぜる"
+            },
+            {
+                "source": "クッキー",
+                "target": "チーズケーキ",
+                "action": "型に敷き詰める"
+            },
+            {
+                "source": "溶かしバター",
+                "target": "クッキー",
+                "action": "混ぜる"
+            },
+            {
+                "source": "チーズケーキ",
+                "target": "オーブン",
+                "action": "焼く"
+            },
+            {
+                "source": "チーズケーキ",
+                "target": "オーブン",
+                "action": "焼く時間４０分"
+            }
+        ]
+    },
+    "https://recipe.rakuten.co.jp/recipe/1960002558/?l-id=wi_rcp_Taboola": {
+        "nodes": [
+            {
+                "id": "抹茶フィナンシェ",
+                "type": "recipe",
+                "quantity": "N/A"
+            },
+            {
+                "id": "卵白 2個分",
+                "type": "ingredient",
+                "quantity": "2"
+            },
+            {
+                "id": "グラニュー糖 50g",
+                "type": "ingredient",
+                "quantity": "50g"
+            },
+            {
+                "id": "塩 少々",
+                "type": "ingredient",
+                "quantity": "a small amount"
+            },
+            {
+                "id": "薄力粉 30g",
+                "type": "ingredient",
+                "quantity": "30g"
+            },
+            {
+                "id": "アーモンドプードル 30g",
+                "type": "ingredient",
+                "quantity": "30g"
+            },
+            {
+                "id": "抹茶 5g",
+                "type": "ingredient",
+                "quantity": "5g"
+            },
+            {
+                "id": "無塩バター 40g",
+                "type": "ingredient",
+                "quantity": "40g"
+            },
+            {
+                "id": "蜂蜜（純粋） 10g",
+                "type": "ingredient",
+                "quantity": "10g"
+
+                "target": "いちごタルト",
+                "action": "混ぜる"
+            },
+            {
+                "source": "粉ゼラチン",
+                "target": "いちごタルト",
+                "action": "混ぜる"
+            },
+            {
+                "source": "水",
+                "target": "いちごタルト",
+                "action": "混ぜる"
+            },
+            {
+                "source": "いちご",
+                "target": "いちごタルト",
+                "action": "飾る"
+            },
+            {
+                "source": "お湯",
+                "target": "粉ゼラチン",
+                "action": "溶かす"
+            }
+        ]
+    },
+    "https://www.kurashiru.com/recipes/81cfe26b-1119-4e1a-991d-5eb802527dc4": {
+        "nodes": [
+            {
+                "id": "玉ねぎ",
+                "type": "ingredient",
+                "quantity": "1/4個"
+            },
+            {
+                "id": "にんじん",
+                "type": "ingredient",
+                "quantity": "1/2本"
+            },
+            {
+                "id": "じゃがいも",
+                "type": "ingredient",
+                "quantity": "1個"
+            },
+            {
+                "id": "ウインナー",
+                "type": "ingredient",
+                "quantity": "2本"
+            },
+            {
+                "id": "コンソメ顆粒",
+                "type": "ingredient",
+                "quantity": "小さじ2"
+            },
+            {
+                "id": "塩",
+                "type": "ingredient",
+                "quantity": "少々"
+            },
+            {
+                "id": "水",
+                "type": "ingredient",
+                "quantity": "600ml"
+            },
+            {
+                "id": "ポトフ",
+                "type": "final",
+                "quantity": null
+
+            }
+        ],
+        "edges": [
+            {
+
+                "source": "卵白",
+                "target": "グラニュー糖",
+                "action": "泡立てる"
+            },
+            {
+                "source": "グラニュー糖",
+                "target": "塩",
+                "action": "混ぜる"
+            },
+            {
+                "source": "塩",
+                "target": "薄力粉",
+                "action": "ふるく"
+            },
+            {
+                "source": "薄力粉",
+                "target": "アーモンドプードル",
+                "action": "ふるく"
+            },
+            {
+                "source": "アーモンドプードル",
+                "target": "抹茶",
+                "action": "ふるく"
+            },
+            {
+                "source": "抹茶",
+                "target": "無塩バター",
+                "action": "ボウルに入れる"
+            },
+            {
+                "source": "無塩バター",
+                "target": "蜂蜜",
+                "action": "泡立てる"
+            },
+            {
+                "source": "蜂蜜",
+                "target": "焼き上がり",
+                "action": "入れる"
+            },
+            {
+                "source": "ボウルに材料",
+                "target": "冷蔵庫で冷やす",
+                "action": "1-2時間"
+            },
+            {
+                "source": "冷蔵庫で冷やした生地",
+                "target": "ローズ型に流し込む",
+                "action": "190℃で焼く"
+            },
+            {
+                "source": "ローズ型に生地を流し込んだ後",
+                "target": "190℃で15分焼く",
+                "action": "竹串が生地を通らなければ完成"
+            },
+            {
+                "source": "焼き上がり",
+                "target": "一日おいた後食べごろ",
+                "action": "バターが馴染み、しっとり"
+            },
+            {
+                "source": "ベーキングパウダー（2g）",
+                "target": "選んで入れる",
+                "action": "ふんわりした焼き上がりに"
+
+                "source": "玉ねぎ",
+                "target": "ポトフ",
+                "action": "煮る"
+            },
+            {
+                "source": "にんじん",
+                "target": "ポトフ",
+                "action": "煮る"
+            },
+            {
+                "source": "じゃがいも",
+                "target": "ポトフ",
+                "action": "煮る"
+            },
+            {
+                "source": "ウインナー",
+                "target": "ポトフ",
+                "action": "煮る"
+            },
+            {
+                "source": "コンソメ顆粒",
+                "target": "ポトフ",
+                "action": "加える"
+            },
+            {
+                "source": "塩",
+                "target": "ポトフ",
+                "action": "混ぜる"
+            },
+            {
+                "source": "水",
+                "target": "ポトフ",
+                "action": "熱する"
+
+            }
+        ]
+    }
+}

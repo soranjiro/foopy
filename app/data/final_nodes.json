@@ -1,0 +1,103 @@
+[
+    {
+        "id": "いちごタルト",
+        "type": "final",
+        "quantity": null
+    },
+    {
+        "id": "カレーライス",
+        "type": "final",
+        "quantity": null
+    },
+    {
+        "id": "デコレーションケーキ",
+        "type": "final",
+        "quantity": null
+    },
+    {
+        "id": "レンジ調理とうもろこし",
+        "type": "final",
+        "quantity": null
+    },
+    {
+        "id": "コーンスープ（ポタージュ）",
+        "type": "final",
+        "quantity": null
+    },
+    {
+        "id": "もずくスープ",
+        "type": "final",
+        "quantity": null
+    },
+    {
+        "id": "ハンバーグ",
+        "type": "final",
+        "quantity": null
+    },
+    {
+        "id": "ふわふわバナナおやつパン",
+        "type": "final",
+        "quantity": null
+    },
+    {
+        "id": "オレンジシフォンケーキ",
+        "type": "final",
+        "quantity": null
+    },
+    {
+        "id": "豆腐の焼きチョコドーナツ",
+        "type": "final",
+        "quantity": null
+    },
+    {
+        "id": "プリンマフィン",
+        "type": "final",
+        "quantity": null
+    },
+    {
+        "id": "簡単バナナケーキ",
+        "type": "final",
+        "quantity": null
+    },
+    {
+        "id": "さんまの蒲焼き丼",
+        "type": "final",
+        "quantity": null
+    },
+    {
+        "id": "さんまの竜田揚げ",
+        "type": "final",
+        "quantity": null
+    },
+    {
+        "id": "濃厚アイスココア",
+        "type": "final",
+        "quantity": null
+    },
+    {
+        "id": "ココアドリンク",
+        "type": "final",
+        "quantity": null
+    },
+    {
+        "id": "あさりの酒蒸し",
+        "type": "final",
+        "quantity": null
+    },
+    {
+        "id": "お味噌汁",
+        "type": "final",
+        "quantity": null
+    },
+    {
+        "id": "味噌ラーメン",
+        "type": "final",
+        "quantity": null
+    },
+    {
+        "id": "チーズケーキ",
+        "id": "ポトフ",
+        "type": "final",
+        "quantity": null
+    }
+]

@@ -2,7 +2,7 @@
 .vscode
 .DS_Store
 
-app/.token
+app/.token/*
 app/__pycache__
 
 app/data/recipe_htmls

@@ -16,7 +16,7 @@ import markdown2
 import os
 import re
 # LLM にレシピを生成させる時は True にする。無駄なプロンプト実行を防ぐためテスト時は False
-USE_LLM_FLAG = True
+USE_LLM_FLAG = False
 
 app = Flask(__name__)
 
@@ -37,7 +37,7 @@ def index():
 
     # with open('data/toy_graph.json', 'r', encoding='utf-8') as f:
     #     graph = json.load(f)
-        
+
     # send_data = convert_json(graph)
     # print(send_data)
     category_list = []
@@ -46,14 +46,14 @@ def index():
         # print(data)
         for d in data:
             category_list.append(d["id"])
-    
+
     with open(f"data/final_nodes_ing.json","r",encoding="utf-8") as f:
         data = json.load(f)
         # print(data)
         category_listIng = []
         for d in data:
             category_listIng.append(d["id"])
-    
+
     # return render_template("result.html",json_data = send_data)
     return render_template('search/index.html',full_categories_list=category_list, full_categories_listIng = category_listIng)
 
@@ -81,21 +81,21 @@ def submit_url():
     print(f"{dish_name=}")
     print(f"{category_name=}")
     print(f"{url=}")
-    
+
     if dish_name:
         graph = get_subgraph_str(dish_name)
-    
+
     elif category_name:
         graph = ingredient2graph(categories_ing)
         send_data = convert_json(graph)
         with open(f'data/toy_graph_tmp.json', 'w', encoding='utf-8') as f:
             json.dump(send_data, f, ensure_ascii=False, indent=4)
         return render_template("search/result_big_graph.html",json_data=send_data,full_categories_list = [],full_categories_listIng = [])
-        
+
     elif url:
         with open(f'data/url2graph.json', 'r', encoding='utf-8') as f:
             url2graph = json.load(f)
-        
+
         if url in url2graph:
             graph = url2graph[url]
         else:
@@ -122,7 +122,7 @@ def submit_url():
         print("LLM Output: ", recipe)
         if recipe == "NO_API":
             recipe = ""
-        else:            
+        else:
             # recipe = recipe.replace("\n","<br>")
             recipe = markdown2.markdown(recipe)
     send_data = convert_json(graph)
@@ -131,7 +131,7 @@ def submit_url():
         title =re.search(r'<h2>(.*?)</h2>', recipe).group(0) #group(0)で<p></p>とかを保持したまま、group(1)ではtextだけ取得する
     except:
         title = "<h2>変換失敗</h2>"
-    try: 
+    try:
         ingredients_ul = re.search(r'<ul>(.*?)</ul>', recipe, re.DOTALL).group(0)
     except:
         ingredients_ul = "<ul>変換失敗</ul>"
@@ -142,8 +142,8 @@ def submit_url():
     print(title)
     print(ingredients_ul)
     print(HowToCook_ol)
-    
-    
+
+
     return render_template("search/result.html",json_data=send_data,full_categories_list =[],recipe_title=title,ingredients=ingredients_ul,HowToCook=HowToCook_ol)
 
 # 画像のアップロードと食材の検出を処理する
@@ -157,7 +157,7 @@ def detect_route():
     detected_items = []
     recipes_1 = ""
     recipes_2 = ""
-    
+
     if request.method == 'POST':
         if 'image' not in request.files:
             return "画像がアップロードされていません", 400

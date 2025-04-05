@@ -1,4 +1,4 @@
-# 2024年度MM工学演習
+# foopy
 ## 料理のレシピ検索アプリ
 
 開発中，ブランチはちゃんと分けましょう
@@ -21,11 +21,16 @@ $ docker logs [コンテナ名]
 ```
 ## 動かし方 (ローカル)
 
-```
-$ cd app
-$ docker-compose up --build -d --force-recreate
+```bash
+# 初回のみ
+$ docker-compose build
+
+# 2回目以降
+$ docker-compose up -d
 ```
 その後，localhost:8001に接続
+
+マウントをしているので，app内のファイルを変更するとコンテナ内のファイルも変更されるはず．
 
 ## API Keys
 
@@ -46,4 +51,3 @@ tokenは[replicateのサイト](https://replicate.com/account/api-tokens)で作�
 
 ## 報告
 gunicornおよびnginx，Flaskは動作確認のために使用しています．担当者が自由に置き換えてください
-
